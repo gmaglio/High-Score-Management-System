@@ -1,0 +1,19 @@
+0.1
+----
+Prompts user with rough GUI to enter 3 fields.
+Handles case if user enters anything other than 3 capital letters in name field.
+Handles case if user enters numeric value that is less than 0 in to score field.
+Handles SQLException.
+
+0.3
+----
+Informs with error pop-up to handle the following
+      -unexpected values for name and/or score
+      -duplicate records
+
+Organized source tree
+
+0.4
+----
+-Include class def HighScore
+-field data is passed through HighScore object 
