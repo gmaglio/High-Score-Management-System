@@ -1,0 +1,25 @@
+HSMS - High Score Managment System
+
+Goal 1:  
+
+     Implement GUI that allows user to insert record into HIGH_SCORES table.  A record is described by the following schema:
+
+		name TEXT
+                score INTEGER
+                date INTERGER(YYYYMMDD)
+
+     The GUI is to display a text entry field for each DB field (3 fields currently).  A Button is clicked to insert the entered data into the database.  
+
+     The following cases must be handled:
+ 
+                1 - Mismatched datatype (ie. user enters text into numeric field)
+                2 - Uniqueness Constraint violated
+
+GUI Spec.
+---------
+
+- The Main window primarily renders a listbox that displays the records of the sqlite datebase.  
+
+- A 'menu bar' is included to allow the user to spawn the 'insert box'.  
+
+- The listbox must be refreshed each time a record is inserted via the 'insert box'. A 'refresh' button' should also be available via the 'menu bar' to refresh the 'listbox'. 

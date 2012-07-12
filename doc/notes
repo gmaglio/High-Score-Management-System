@@ -1,0 +1,7 @@
+What we learned here today:
+
+20120521:
+
+    -irb will not tab-complete an name of array if there are 0 elements in the array
+         -Elements of user defined type must be pushed to array via class_name.new
+                    ie. myArray.push(HighScore.new())

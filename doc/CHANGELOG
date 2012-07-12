@@ -1,0 +1,48 @@
+0.1
+----
+Prompts user with rough GUI to enter 3 fields.
+Handles case if user enters anything other than 3 capital letters in name field.
+Handles case if user enters numeric value that is less than 0 in to score field.
+Handles SQLException.
+
+0.3
+----
+Informs with error pop-up to handle the following
+      -unexpected values for name and/or score
+      -duplicate records
+
+Organized source tree
+
+0.4
+----
+-Include class def HighScore
+-field data is passed through HighScore object 
+-Main formatted to class definition
+-Should variables with Main be instance variables?
+
+0.5
+----
+- Added Success dialog (pop-up) to inform user of successful DB insert.
+- Set window geometry to width 300.
+- Removed debug print statements from info/error pop-ups.
+- Organized code base. 
+      - Listbox implemented as object (ScoreLister)
+      - Insert box implemented as object (ScoreInserter)
+
+0.5.a
+------
+- File -> New activates insert box
+
+0.5.b
+------
+- ListBox is refreshable.
+- Possible architecture redesign in next release.
+
+0.5.c
+------
+
+Architecture Redesign
+  ScoreLister.rb:  Numeric field specifier stored in fields array.
+  
+
+ListBox is cleared before records are appended to list.

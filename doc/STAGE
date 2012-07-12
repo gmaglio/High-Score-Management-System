@@ -1,0 +1,12 @@
+-Handling exception with pop-up.
+
+-Input validation
+   Name
+    -No more than 3 characters.
+    -Alpha-numeric only.
+
+   Score
+    -Numeric input only.
+
+   Date
+    -Must be a valid date in the form of YYYYMMDD.
