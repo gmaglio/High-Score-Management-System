@@ -1,0 +1,30 @@
+HSMS - High Score Managment System
+
+
+Description 
+------------
+This is a proof-of-concept of Record Managment utilizing the following technologies and APIs: Ruby, sqlite3 and gtk2.
+
+
+Run
+----
+cd src
+./hsms_ui.rb
+
+
+Goals and Expectation of Functionality
+---------------------------------------
+Goal 1:  
+
+     Implement GUI that allows user to insert record into HIGH_SCORES table.  A record is described by the following schema:
+
+		name TEXT
+                score INTEGER
+                date INTERGER(YYYYMMDD)
+
+     The GUI is to display a text entry field for each DB field (3 fields currently).  A Button is clicked to insert the entered data into the database.  
+
+     The following cases must be handled:
+ 
+                1 - Mismatched datatype (ie. user enters text into numeric field)
+                2 - Uniqueness Constraint violated

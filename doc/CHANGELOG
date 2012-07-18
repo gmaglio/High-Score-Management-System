@@ -17,6 +17,7 @@ Organized source tree
 ----
 -Include class def HighScore
 -field data is passed through HighScore object 
+<<<<<<< HEAD
 -Main formatted to class definition
 -Should variables with Main be instance variables?
 
@@ -46,3 +47,5 @@ Architecture Redesign
   
 
 ListBox is cleared before records are appended to list.
+=======
+>>>>>>> 203a634da23cb022cd4c298844e902eecdd9d384
