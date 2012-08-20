@@ -4,7 +4,7 @@
 # ScoreLister.rb: Object that handles the functionality of a gtk-ListBox.  ScoreLister to display list of HighScore records.
 
 require 'gtk2'
-require 'HighScore'
+require_relative 'HighScore'
 
 class ScoreLister
 

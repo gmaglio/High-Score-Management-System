@@ -4,11 +4,11 @@
 # main.rb: main executable and tie-in of hsms.
 
 require 'gtk2'
-require 'HighScore'
-require 'DBHandler'
-require 'ScoreLister'
-require 'ScoreInserter'
-require 'MenuBar'
+require_relative 'HighScore'
+require_relative 'DBHandler'
+require_relative 'ScoreLister'
+require_relative 'ScoreInserter'
+require_relative 'MenuBar'
 
 window = Gtk::Window.new(Gtk::Window::TOPLEVEL)
 window.resizable = true
