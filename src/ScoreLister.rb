@@ -3,8 +3,9 @@
 # Author: Gregory Maglio
 # ScoreLister.rb: Object that handles the functionality of a gtk-ListBox.  ScoreLister to display list of HighScore records.
 
+require 'rubygems'
 require 'gtk2'
-require_relative 'HighScore'
+require 'HighScore'
 
 class ScoreLister
 

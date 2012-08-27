@@ -4,8 +4,8 @@
 # ScoreInserter.rb: Object to handle user input of HighScore record and insertion into DB.
 
 require 'gtk2'
-require_relative 'DBHandler'
-require_relative 'HighScore'
+require 'DBHandler'
+require 'HighScore'
 
 class ScoreInserter
 

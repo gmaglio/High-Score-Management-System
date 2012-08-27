@@ -3,6 +3,7 @@
 # Author: Gregory Maglio
 # DBHandler.rb: Object to handle DB transactions via sqlite.
 
+require 'rubygems'
 require 'sqlite3'
 
 class DBHandler 

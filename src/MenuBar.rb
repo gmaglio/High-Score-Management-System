@@ -3,6 +3,7 @@
 # Author: Gregory Maglio
 # MenuBar.rb: Object that describes a MenuBar implemented in gtk2.
 
+require 'rubygems'
 require 'gtk2'
 require 'sqlite3'
 
